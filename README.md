@@ -8,10 +8,7 @@ Not knowing when the dining halls are open and for what meal (breakfast, lunch, 
 
 ## How It Works
 
-A paragraph or a few bullets explaining what the software does at a
-high level. If you have a diagram, embed it here:
-
-![System diagram](docs/diagram.png)
+Uses curl in order to get data from the Purdue dining hall API. Which it then uses in order to determine what is outputted based on what time it is.
 
 ## Tech Stack
 
@@ -21,19 +18,13 @@ high level. If you have a diagram, embed it here:
 
 ## Setup
 
-Step-by-step: how does someone who just cloned your repo get it
-running?
-
 ```bash
-git clone https://github.com/you/your-project
-cd your-project
-./install.sh   # or whatever
+git clone https://github.com/sebrcast/Purdue-Dining
+cd Purdue-Dining
 ```
 
 ## Usage
 
-How to actually run the thing, with examples.
-
 ```bash
-./backup.sh ~/Documents
+
 ```
